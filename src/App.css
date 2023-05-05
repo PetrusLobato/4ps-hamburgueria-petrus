@@ -1,0 +1,42 @@
+.container{
+    font-family: var(--fonte-main);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+
+   
+   
+
+
+    
+}
+
+.mododarkContainer{
+    font-family: var(--fonte-main);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    background-color: rgb(66, 66, 66);
+
+}
+
+
+
+@media (min-width: 800px){
+    .masterMain{
+        display: flex;
+        justify-content: space-evenly;
+        width: 98%;
+        margin: 0 auto;
+        gap: 10px;
+        height: 100%;
+        overflow: hidden;
+        
+    }
+}
